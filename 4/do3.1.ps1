@@ -1,12 +1,4 @@
-$poolname = "NewSnowAppPool"
-$hostname = "newsnowhost"
-$account = "SARATOV\Dmitrii_Tkachenko"
-$databasename = "New_SharePoint_contentDB"
-$protocol = "http://"
-$basesiteurl = $protocol + $hostname
-$thirdsitename = $basesiteurl + "/documentstorage/docs2"
-$firstsitename = $basesiteurl + "/sites/twitter"
-$secondsitename = $basesiteurl + "/documentstorage/docs1"
+Import-Module C:\Users\Dmitrii_Tkachenko\Desktop\tasks\4\3.1.vars.psm1
 
 Trap [System.Exception] {
     Write-Host "Error occured. Program terminated. Details:" -ForegroundColor Red
@@ -14,7 +6,6 @@ Trap [System.Exception] {
     Write-Host $_.Exception.ItemName -ForegroundColor Red
     return;
 }
-
 
 New-SPServiceApplicationPool -Name $poolname -Account $account
 

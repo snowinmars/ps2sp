@@ -1,16 +1,19 @@
-$poolname = "NewSnowAppPool"
-$hostname = "newsnowhost"
-$account = "SARATOV\Dmitrii_Tkachenko"
-$databasename = "New_SharePoint_contentDB"
-$protocol = "http://"
-$basesiteurl = $protocol + $hostname
-$thirdsitename = $basesiteurl + "/documentstorage/docs2"
-$firstsitename = $basesiteurl + "/sites/twitter"
-$secondsitename = $basesiteurl + "/documentstorage/docs1"
+Import-Module C:\Users\Dmitrii_Tkachenko\Desktop\tasks\4\3.1.vars.psm1
 
-Remove-SPSite -Identity $thirdsitename
-Remove-SPSite -Identity $secondsitename
-Remove-SPManagedPath -WebApplication $hostname -Identity "documentstorage"
-Remove-SPSite -Identity $firstsitename
-Remove-SPWebApplication -Identity $hostname
-Remove-SPServiceApplicationPool -Identity $poolname
+Remove-SPSite -Identity $thirdsitename -confirm:$false
+Write-Host "removed SPSite " + $thirdsitename
+
+Remove-SPSite -Identity $secondsitename -confirm:$false
+Write-Host "removed SPSite " + $secondsitename
+
+Remove-SPManagedPath -WebApplication $hostname -Identity "documentstorage" -confirm:$false
+Write-Host "removed SPManagedPath documentstorage for WebApplication " + $hostname
+
+Remove-SPSite -Identity $firstsitename -confirm:$false
+Write-Host "removed SPSite" + $firstsitename
+
+Remove-SPWebApplication -Identity $hostname -confirm:$false
+Write-Host "removed SPWebApplication " + $hostname
+
+Remove-SPServiceApplicationPool -Identity $poolname -confirm:$false
+Write-Host "removed SPServiceApplicationPool " + $poolname
