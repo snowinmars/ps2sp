@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{dfac85d8-a17e-4e42-8d0d-3fb293158562}"
+       Name="Clapza"
+       DisplayName="Clapza"
+       Type="Text"
+       Required="TRUE"
+       Group="Custom Site Columns">
+  </Field>
+  <ContentType ID="0x010059DCAB91A7E6459D8AB2AF9BF1DF9CCC"
+               Name="ClapzaContentType">
+    <FieldRefs>
+      <FieldRef ID="dfac85d8-a17e-4e42-8d0d-3fb293158562" Name="ClapzaContentTypeField" DisplayName="ClapzaContentTypeField"/>
+    </FieldRefs>
+  </ContentType>
+</Elements>

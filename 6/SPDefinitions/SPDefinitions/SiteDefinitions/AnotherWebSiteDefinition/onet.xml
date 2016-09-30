@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Title="AnotherWebSiteDefinition" Revision="2" ListDir="" xmlns:ows="Microsoft SharePoint" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <NavBars>
+  </NavBars>
+  <Configurations>
+    <Configuration ID="0" Name="AnotherWebSiteDefinition">
+      <Lists/>
+      <SiteFeatures>
+        <Feature ID="db01add8-4c13-4a26-9b90-13b159d68536" Name="Lists"></Feature>
+        <Feature ID="503e2ed2-113d-4c6a-91c8-62c9726d5b42" Name="Module"></Feature>
+      </SiteFeatures>
+      <WebFeatures>
+      </WebFeatures>
+      <Modules>
+        <Module Name="DefaultBlank" />
+      </Modules>
+    </Configuration>
+  </Configurations>
+  <Modules>
+    <Module Name="DefaultBlank" Url="" Path="">
+      <File Url="default.aspx">
+      </File>
+    </Module>
+  </Modules>
+</Project>

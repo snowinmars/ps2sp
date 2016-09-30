@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Picture (0x010102) -->
+  <ContentType ID="0x01010200CA8639AF5EDA409E8275B248CE926535" Name="PictureContentType" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{3C4E7A5B-B7D5-4779-A14A-490803E63923}" DisplayName="$Resources:dlccore,DocumentRoutingEnabled_DisplayName;" Required="TRUE" Name="RoutingEnabled" Sealed="TRUE" />
+      <FieldRef ID="{186175F6-E318-4e9a-B5F7-4F7C751585A0}" DisplayName="$Resources:dlccore,DocumentRoutingAliases_DisplayName;" Required="TRUE" Name="RoutingAliases" Sealed="TRUE" />
+      <FieldRef ID="{53101f38-dd2e-458c-b245-0c236cc13d1a}" DisplayName="$Resources:core,Assigned_To;" Name="AssignedTo" />
+      <FieldRef ID="{E1FA3211-0188-4a95-A737-8775782CBAC0}" DisplayName="$Resources:dlccore,DocumentRoutingAutoFolderSettings_DisplayName;" Required="TRUE" Hidden="TRUE" Name="RoutingAutoFolderSettings" Sealed="TRUE" />
+      <FieldRef ID="{fd630629-c165-4513-b43c-fdb16b86a14d}" DisplayName="$Resources:core,Business_Phone;" Name="WorkPhone" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

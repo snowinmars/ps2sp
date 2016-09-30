@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Version="1.0.0.0">
+  <UpgradeActions>
+    <VersionRange BeginVersion="0.0.5.0" EndVersion="2.0.0.0">
+      <ApplyElementManifests>
+        <ElementManifest Location="NewSiteColumn\Elements.xml"/>
+      </ApplyElementManifests>
+      <CustomUpgradeAction Name="NewFieldUpgradeAction"></CustomUpgradeAction>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

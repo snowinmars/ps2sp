@@ -1,0 +1,13 @@
+﻿<div style="background: green">
+	<font style="color:red">
+	Placeholder file for the SharePoint module.
+	</font>
+
+	<font style="color:red">
+	A module contains files that are included in a SharePoint application when it is deployed.
+	</font>
+
+	<font style="color:red">
+	For more information, search Help for module.
+	</font>
+</div>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field Name="NewField" Type="Text" ID="{5BDD3D26-DBE1-4C3F-98BE-63745DCDDFE3}" Required="FALSE" DisplayName="NewField"></Field>
+</Elements>

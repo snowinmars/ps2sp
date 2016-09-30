@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <!-- Do not change the value of the Name attribute below. If it does not match the folder name of the List project item, an error will occur when the project is run. -->
+    <ListTemplate
+        Name="DepstaLista"
+        Type="10000"
+        BaseType="0"
+        OnQuickLaunch="TRUE"
+        SecurityBits="11"
+        Sequence="410"
+        DisplayName="DepstaLista"
+        Description="My List Definition"
+        Image="/_layouts/15/images/itgen.png"/>
+  <ContentTypeBinding ContentTypeId="0x0100791BE8F987764A9EBFE860EE501B583A" ListUrl="Lists/EmpaListaInstance"/>
+  <ContentTypeBinding ContentTypeId="0x010059DCAB91A7E6459D8AB2AF9BF1DF9CCC" ListUrl="Lists/EmpaListaInstance"/>
+</Elements>
